@@ -1,0 +1,17 @@
+body{
+    background-color: lightgrey;
+}
+
+a img{
+    width: 100%;
+}
+#content img{
+    width: 10em;
+    margin: 15px;
+    border-radius: 50%;
+    border: 10px solid darkgray;
+}
+
+#content{
+    text-align: center;
+}

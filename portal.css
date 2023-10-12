@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Skranji&display=swap');
+
 body{
-    font-size: 20px
+    font-size: 20px;
+    font-family: Open Sans, Times New Roman, sans-serif;
+    padding: 0,0;
 }
 
 a {
@@ -19,17 +23,22 @@ a:hover {
 nav{
     display: flex; 
     justify-content: center;
+    padding-top: 20px;
 }
 
 h1{ 
-    font-size: 1em;
+    font-family: Skranji;
+    font-size: 2.5em;
     text-align: center;
 }
 
 img{
-    width: 25%;
+    width: 80%;
     display: block;
     margin: 0 auto;
+    border: 3px solid lightblue;
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 p {
@@ -37,6 +46,7 @@ p {
     width: 80%;
     margin: 0 auto;
     padding: 10px;
+    box-sizing: border-box
 }
 
 .background{
