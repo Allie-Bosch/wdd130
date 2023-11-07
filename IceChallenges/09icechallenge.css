@@ -1,0 +1,25 @@
+body{
+    display:grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(6, 350px);
+}
+
+img {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+h1{
+    font-size: 80px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 20px;
+}
