@@ -92,6 +92,7 @@ nav a:hover{
 .short-button{
     padding-right: 4em;
 }
+
 .long-button,.short-button{
     text-align: center;
     color: black;
@@ -100,7 +101,7 @@ nav a:hover{
 }
 
 .long-button:hover , .short-button:hover{
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     color:#DA5870;
 }
 
