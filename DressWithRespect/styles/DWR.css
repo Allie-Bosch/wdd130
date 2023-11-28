@@ -2,7 +2,7 @@
 
 /* Start of Home CSS */
 body{
-    background-color: white;
+    background-color: #fff8f9;
     font-family: "Playpen Sans", sans-serif;
     font-size: 22px;
     margin: 0;
@@ -54,6 +54,13 @@ nav a:hover{
     grid-column: 1/3;
     color: black;
     padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#title h2{
+    font-size: 20px;
+    font-family: "Playpen Sans", sans-serif;
+    margin-top: -75px;
 }
 
 .home-grid{
@@ -107,6 +114,8 @@ nav a:hover{
     font-size: 30px;
     background-color: #DA5870;
     grid-column: 1/3;
+    padding-left: 100px;
+    padding-right: 100px
 }
 
 footer{
