@@ -76,11 +76,8 @@ nav a:hover{
 .long-img{
     width: 80%;
     margin: auto;
-    padding-left: 4em;
-}
-
-.long-button{
-    padding-left: 4em;
+    /* padding-left: 4em; */
+    box-shadow: 5px 5px 10px black;
 }
 
 .short-dress{
@@ -91,11 +88,8 @@ nav a:hover{
 .short-img{
     width: 80%;
     margin: auto;
-    padding-right: 4em;
-}
-
-.short-button{
-    padding-right: 4em;
+    /* padding-right: 4em; */
+    box-shadow: 5px 5px 10px black;
 }
 
 .long-button,.short-button{
@@ -103,6 +97,7 @@ nav a:hover{
     color: black;
     padding-top: 20px;
     padding-bottom: 75px;
+    font-size: 30px;
 }
 
 .long-button:hover , .short-button:hover{
@@ -147,3 +142,85 @@ footer p a:hover{
 }
 
 /* End of Home CSS */
+
+/* Start of Long Dresses CSS */
+
+.long-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bg-dress{
+    grid-column: 1/3;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.bg-img{
+    width: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.bg-dress p{
+    font-size: 25px;
+}
+
+.black-dress{
+    grid-column: 1/2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.black-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.black-dress p{
+    font-size: 20px;
+}
+
+.grey-dress{
+    grid-column: 2/3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.grey-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.grey-dress p{
+    font-size: 20px;
+}
+
+.purple-dress{
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.purple-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.purple-dress p{
+    font-size: 20px;
+}
+
+.color-dress{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.color-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.color-dress p{
+    font-size: 20px;
+}
+
+/* End of Long Dresses CSS */
