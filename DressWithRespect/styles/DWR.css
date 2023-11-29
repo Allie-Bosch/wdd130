@@ -224,3 +224,87 @@ footer p a:hover{
 }
 
 /* End of Long Dresses CSS */
+
+/* Start of Short Dresses CSS */
+
+.short-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.orange-dress{
+    grid-column: 1/3;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.orange-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.orange-dress p{
+    font-size: 25px;
+}
+
+.gold-dress{
+    grid-column: 1/2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.gold-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.gold-dress p{
+    font-size: 20px;
+}
+
+.pink-dress{
+    grid-column: 2/3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pink-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.pink-dress p{
+    font-size: 20px;
+}
+
+.white-dress{
+    grid-column: 1/2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.white-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.white-dress p{
+    font-size: 20px;
+}
+
+.blue-dress{
+    grid-column: 2/3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.blue-img{
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.blue-dress p{
+    font-size: 20px;
+}
+
+/* End of short Dresses CSS */
